@@ -1,0 +1,35 @@
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/code/api/settings.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/code/manage.py changed, reloading.
+INFO:root:['manage.py', 'runserver', '10001']
+INFO:django.utils.autoreload:C:\Users\79120\Documents\Python\kurse\api\manage.py changed, reloading.
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:root:['manage.py', 'runserver', '10002']
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:django.utils.autoreload:/code/api/settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\79120\Documents\Python\kurse\api\api\settings.py changed, reloading.
+INFO:root:['manage.py', 'runserver', '10001']
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:root:['manage.py', 'runserver', '10002']
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:root:['manage.py', 'runserver', '0.0.0.0:8000']
+INFO:root:['manage.py', 'runserver', '0.0.0.0:8000']
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:root:['manage.py', 'runserver', '0.0.0.0:8000']
+INFO:root:['manage.py', 'runserver', '0.0.0.0:8000']
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:root:['manage.py', 'runserver', '0.0.0.0:8000']
+INFO:root:['manage.py', 'runserver', '0.0.0.0:8000']
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+INFO:root:['manage.py', 'runserver', '0.0.0.0:8000']
+INFO:root:['manage.py', 'runserver', '0.0.0.0:8000']
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
+WARNING:django.request:Not Found: /favicon.ico
+INFO:root:['manage.py', 'runserver', '0.0.0.0:8000']
+INFO:root:['manage.py', 'runserver', '0.0.0.0:8000']
+INFO:django.utils.autoreload:Watching for file changes with StatReloader
