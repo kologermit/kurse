@@ -1,0 +1,5 @@
+POSTGRES_USER=master
+POSTGRES_PASSWORD=masterPassword
+POSTGRES_DB=hostel
+POSTGRES_HOST=kurse_postgres_container
+PGDATA=/var/lib/postgresql/data/pgdata

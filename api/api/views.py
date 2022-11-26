@@ -2,11 +2,12 @@ from django.http import HttpResponse
 from DB import DB
 import json
 import logging
+import os
 database = DB(postgres = {
-	"user": "master",
-	"password": "masterPassword",
-	"host": "postgres",
-	"dbname": "hostel",
+	"user": os.environ.get('POSTGRES_USER'),
+	"password": os.environ.get('POSTGRES_PASSWORD'),
+	"host": os.environ.get('POSTGRES_HOST'),
+	"dbname": os.environ.get('POSTGRES_DB'),
 	"port": 5432
 })
 

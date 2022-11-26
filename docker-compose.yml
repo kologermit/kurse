@@ -6,11 +6,8 @@ services:
     image: postgres:13-alpine
     ports:
       - "9000:5432"
-    environment:
-      - POSTGRES_USER=master
-      - POSTGRES_PASSWORD=masterPassword
-      - POSTGRES_DB=hostel
-      - PGDATA=/var/lib/postgresql/data/pgdata
+    env_file:
+      - ./environment
     volumes:
       - "./database.sql:/docker-entrypoint-initdb.d/create_tables.sql"
       - "./db/postgres:/var/lib/postgresql/data"
@@ -22,6 +19,8 @@ services:
     build: ./api
     volumes:
       - ./api/:/usr/src/app/
+    env_file:
+      - ./environment
     ports:
       - 9001:8000
     networks:
