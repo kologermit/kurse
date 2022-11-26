@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS "booking" (
 
 -- Дамп структуры для таблица public.clients
 CREATE TABLE IF NOT EXISTS "clients" (
-	"cliendId" SERIAL,
+	"clientId" SERIAL,
 	"beginDate" DATE NOT NULL DEFAULT '2020-01-01',
 	"endDate" DATE NOT NULL DEFAULT '2020-01-02',
 	"clientPrepayment" REAL NOT NULL DEFAULT '0',
