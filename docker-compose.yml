@@ -18,12 +18,15 @@ services:
       - postgres
 
   api:
-    container_name: api
+    container_name: kurse_api
     build: ./api
     volumes:
       - ./api/:/usr/src/app/
     ports:
       - 9001:8000
+    networks:
+      - postgres
+
 networks:
   postgres:
     driver: bridge
